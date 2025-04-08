@@ -43,3 +43,7 @@ const menu = [
 https://api.themoviedb.org/3/movie/550?api_key={}
 https://api.themoviedb.org/3/genre/movie/list?language=en&api_key={}
 ```
+- Image base url
+```
+const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
+```

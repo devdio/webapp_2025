@@ -47,3 +47,17 @@ https://api.themoviedb.org/3/genre/movie/list?language=en&api_key={}
 ```
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original";
 ```
+- import png and mp4
+```js
+import disney from "../assets/images/disney.png";
+import marvel from "../assets/images/marvel.png";
+import nationalG from "../assets/images/nationalG.png";
+import pixar from "../assets/images/pixar.png";
+import starwar from "../assets/images/starwar.png";
+
+import starwarV from "../assets/images/star-wars.mp4";
+import disneyV from "../assets/images/disney.mp4";
+import marvelV from "../assets/images/marvel.mp4";
+import nationalGeographicV from "../assets/images/national-geographic.mp4";
+import pixarV from "../assets/images/pixar.mp4";
+```

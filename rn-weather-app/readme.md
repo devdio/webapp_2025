@@ -31,3 +31,26 @@ export const weatherImages = {
 };
 
 ```
+- eas.json
+```
+{
+  "cli": {
+    "version": ">= 10.0.2",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}
+
+```

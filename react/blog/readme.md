@@ -2,6 +2,7 @@
 
 ### Blog Data
 ```
+const [blogs, setBlogs] = useState([
 {
       "title": "Mickey 17",
       "body": "Mickey 17, known as an expendable,goes on a dangerous...",
@@ -19,7 +20,8 @@
       "body": "Greed and class discrimination threaten the newly ...",
       "author": "Bong Joon Ho",
       "id": "4"
-    },
+    }
+]);
 ```
 
 ## run json server
